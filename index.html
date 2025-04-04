@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ProCompress - Professional online image compression tool. Reduce file sizes without losing quality for JPG, PNG, and WebP images.">
+    <meta name="keywords" content="professional image compressor, optimize images, reduce image size, web performance tool, photo compression">
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProCompress | Professional Image Compression Tool</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-/img-compres.html" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <style>
+        /* [Previous CSS styles remain exactly the same] */
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-compress-alt"></i>
+                    </div>
+                    <div class="logo-text">ProCompress</div>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="how-it-works.html">How It Works</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="login.html" class="btn btn-outline">Log In</a>
+                    <a href="signup.html" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Professional Image Compression Made Simple</h1>
+                        <p class="subtitle">Optimize your images without sacrificing quality.</p>
+                        <div class="hero-cta">
+                            <a href="compressor.html" class="btn btn-primary">
+                                <i class="fas fa-play btn-icon"></i>
+                                Try It Now
+                            </a>
+                            <a href="#features" class="btn btn-outline">
+                                <i class="fas fa-book btn-icon"></i>
+                                Learn More
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="hero-image.jpg" alt="Image compression example">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="section">
+            <div class="container">
+                <h2 class="section-title">Key Features</h2>
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Fast Compression</h3>
+                        <p>Our tool processes images in seconds.</p>
+                        <a href="features.html#speed" class="feature-link">Learn more →</a>
+                    </div>
+                    <!-- More feature cards -->
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title">Ready to optimize your images?</h2>
+                <a href="signup.html" class="btn btn-primary">Get Started Free</a>
+                <p>or <a href="pricing.html" class="text-link">see pricing plans</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="compressor.html">Compressor Tool</a></li>
+                    </ul>
+                </div>
+                <!-- More footer columns -->
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+        :root {
+            --primary: #4361ee;
+            --primary-dark: #3a56d4;
+            --secondary: #3f37c9;
+            --accent: #4895ef;
+            --success: #4cc9f0;
+            --danger: #f72585;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --gray: #6c757d;
+            --light-gray: #e9ecef;
+            --border-radius: 8px;
+            --box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--dark);
+            background-color: white;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+        
+        .logo-icon {
+            font-size: 28px;
+            color: var(--primary);
+        }
+        
+        .logo-text {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--dark);
+            font-family: 'Playfair Display', serif;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+        
+        nav a {
+            color: var(--dark);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 5px 0;
+            position: relative;
+        }
+        
+        nav a:hover {
+            color: var(--primary);
+        }
+        
+        nav a::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--primary);
+            transition: var(--transition);
+        }
+        
+        nav a:hover::after {
+            width: 100%;
+        }
+        
+        .auth-buttons {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: var(--border-radius);
+            cursor: pointer;
+            font-size: 15px;
+            font-weight: 500;
+            transition: var(--transition);
+            text-decoration: none;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary);
+            color: white;
+            box-shadow: 0 2px 8px rgba(67, 97, 238, 0.2);
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--primary-dark);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(67, 97, 238, 0.3);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 1px solid var(--light-gray);
+            color: var(--dark);
+        }
+        
+        .btn-outline:hover {
+            background-color: var(--light);
+            border-color: var(--gray);
+        }
+        
+        .btn-icon {
+            font-size: 16px;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            background: linear-gradient(135deg, #f5f7ff 0%, #ffffff 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+        
+        .hero-text {
+            flex: 1;
+        }
+        
+        .hero-image {
+            flex: 1;
+            position: relative;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        
+        .hero-badge {
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            background-color: var(--primary);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
+            transform: rotate(5deg);
+        }
+        
+        h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            color: var(--gray);
+            margin-bottom: 30px;
+            max-width: 500px;
+        }
+        
+        .hero-cta {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .stats {
+            display: flex;
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            font-size: 14px;
+            color: var(--gray);
+        }
+        
+        /* Features Section */
+        .section {
+            padding: 100px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: var(--gray);
+            max-width: 700px;
+            margin: 0 auto 60px;
+            font-size: 1.1rem;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--box-shadow);
+            transition: var(--transition);
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background-color: rgba(67, 97, 238, 0.1);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            color: var(--primary);
+            font-size: 24px;
+        }
+        
+        .feature-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .feature-description {
+            color: var(--gray);
+            line-height: 1.7;
+        }
+        
+        /* How It Works */
+        .steps-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            position: relative;
+        }
+        
+        .steps-line {
+            position: absolute;
+            top: 40px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background-color: var(--light-gray);
+            z-index: 1;
+        }
+        
+        .steps {
+            display: flex;
+            gap: 80px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .step {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 200px;
+            text-align: center;
+        }
+        
+        .step-number {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: white;
+            border: 2px solid var(--light-gray);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .step.active .step-number {
+            background-color: var(--primary);
+            color: white;
+            border-color: var(--primary);
+        }
+        
+        .step-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .step-description {
+            color: var(--gray);
+            font-size: 14px;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background-color: var(--light);
+            position: relative;
+        }
+        
+        .testimonial-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 30px;
+            box-shadow: var(--box-shadow);
+            margin: 0 15px;
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            color: var(--dark);
+            line-height: 1.7;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .author-avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        
+        .author-info h4 {
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .author-info p {
+            color: var(--gray);
+            font-size: 14px;
+        }
+        
+        /* Pricing */
+        .pricing-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .pricing-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            padding: 40px 30px;
+            box-shadow: var(--box-shadow);
+            text-align: center;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .pricing-card.popular {
+            border: 2px solid var(--primary);
+        }
+        
+        .popular-badge {
+            position: absolute;
+            top: 15px;
+            right: -30px;
+            background-color: var(--primary);
+            color: white;
+            padding: 5px 30px;
+            transform: rotate(45deg);
+            font-size: 12px;
+            font-weight: 600;
+        }
+        
+        .pricing-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        
+        .pricing-price {
+            font-size: 3rem;
+            font-weight: 700;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .pricing-period {
+            font-size: 14px;
+            color: var(--gray);
+        }
+        
+        .pricing-features {
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .pricing-feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+            color: var(--dark);
+        }
+        
+        .pricing-feature i {
+            color: var(--primary);
+        }
+        
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            text-align: center;
+            padding: 80px 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta::before {
+            content: "";
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 300px;
+            height: 300px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+        }
+        
+        .cta::after {
+            content: "";
+            position: absolute;
+            bottom: -150px;
+            left: -150px;
+            width: 400px;
+            height: 400px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+        }
+        
+        .cta-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .cta-subtitle {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            opacity: 0.9;
+            position: relative;
+            z-index: 2;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark);
+            color: white;
+            padding: 80px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 20px;
+            text-decoration: none;
+        }
+        
+        .footer-logo-icon {
+            font-size: 24px;
+            color: var(--primary);
+        }
+        
+        .footer-logo-text {
+            font-size: 20px;
+            font-weight: 700;
+            color: white;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .footer-description {
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 20px;
+            line-height: 1.7;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-link {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            transition: var(--transition);
+        }
+        
+        .social-link:hover {
+            background-color: var(--primary);
+            transform: translateY(-3px);
+        }
+        
+        .footer-column h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: white;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column li {
+            margin-bottom: 15px;
+        }
+        
+        .footer-column a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: var(--transition);
+            font-size: 15px;
+        }
+        
+        .footer-column a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 14px;
+        }
+        
+        /* Ad Container */
+        .ad-container {
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            margin: 60px 0;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        
+        .ad-label {
+            font-size: 12px;
+            color: var(--gray);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        
+        /* Responsive */
+        @media (max-width: 992px) {
+            .hero-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .subtitle {
+                margin-left: auto;
+                margin-right: auto;
+            }
+            
+            .hero-cta {
+                justify-content: center;
+            }
+            
+            .stats {
+                justify-content: center;
+            }
+            
+            .hero-image {
+                margin-top: 50px;
+            }
+            
+            .steps {
+                gap: 40px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.2rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            nav ul {
+                gap: 15px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            .auth-buttons {
+                margin-top: 15px;
+            }
+            
+            .steps {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .steps-line {
+                display: none;
+            }
+            
+            .step {
+                max-width: 100%;
+                flex-direction: row;
+                align-items: flex-start;
+                text-align: left;
+                gap: 20px;
+            }
+            
+            .step-number {
+                width: 50px;
+                height: 50px;
+                font-size: 18px;
+                margin-bottom: 0;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .hero {
+                padding: 60px 0;
+            }
+            
+            .section {
+                padding: 60px 0;
+            }
+            
+            .hero-cta {
+                flex-direction: column;
+            }
+            
+            .stats {
+                flex-direction: column;
+                gap: 20px;
+            }
+            
+            .cta-title {
+                font-size: 2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-compress-alt"></i>
+                    </div>
+                    <div class="logo-text">ProCompress</div>
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </nav>
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-outline">Log In</a>
+                    <a href="#" class="btn btn-primary">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Professional Image Compression Made Simple</h1>
+                        <p class="subtitle">Optimize your images without sacrificing quality. Reduce file sizes for faster websites and better performance with our advanced compression technology.</p>
+                        <div class="hero-cta">
+                            <a href="#" class="btn btn-primary">
+                                <i class="fas fa-play btn-icon"></i>
+                                Try It Now
+                            </a>
+                            <a href="#" class="btn btn-outline">
+                                <i class="fas fa-book btn-icon"></i>
+                                Learn More
+                            </a>
+                        </div>
+                        <div class="stats">
+                            <div class="stat-item">
+                                <div class="stat-number">10M+</div>
+                                <div class="stat-label">Images Compressed</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">95%</div>
+                                <div class="stat-label">Size Reduction</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">4.9/5</div>
+                                <div class="stat-label">User Rating</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Image compression example">
+                        <div class="hero-badge">No Quality Loss</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Ad Container -->
+        <div class="container">
+            <div class="ad-container">
+                <div class="ad-label">Advertisement</div>
+                <!-- AdSense Ad Unit -->
+                <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-YOUR_ADSENSE_ID"
+                     data-ad-slot="YOUR_AD_UNIT_ID"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                </script>
+            </div>
+        </div>
+        
+        <!-- Features Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Why Choose ProCompress</h2>
+                <p class="section-subtitle">Our advanced image compression technology delivers superior results while maintaining visual quality</p>
+                
+                <div class="features">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3 class="feature-title">Lightning Fast</h3>
+                        <p class="feature-description">Compress images in seconds with our optimized algorithms. Process multiple images simultaneously for maximum efficiency.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <h3 class="feature-title">No Quality Loss</h3>
+                        <p class="feature-description">Our smart compression maintains visual quality while dramatically reducing file sizes. Perfect for professional use.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Secure Processing</h3>
+                        <p class="feature-description">All processing happens in your browser. Your images are never uploaded to our servers, ensuring complete privacy.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3 class="feature-title">Smart Optimization</h3>
+                        <p class="feature-description">Automatic format selection and intelligent compression settings tailored for each image type.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-sliders-h"></i>
+                        </div>
+                        <h3 class="feature-title">Advanced Controls</h3>
+                        <p class="feature-description">Fine-tune compression settings with our professional-grade controls for perfect results every time.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-infinity"></i>
+                        </div>
+                        <h3 class="feature-title">All Formats Supported</h3>
+                        <p class="feature-description">Work with JPG, PNG, WebP, and more. Convert between formats with a single click.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- How It Works Section -->
+        <section class="section" style="background-color: #f9faff;">
+            <div class="container">
+                <h2 class="section-title">How It Works</h2>
+                <p class="section-subtitle">Compress your images in just three simple steps</p>
+                
+                <div class="steps-container">
+                    <div class="steps-line"></div>
+                    <div class="steps">
+                        <div class="step active">
+                            <div class="step-number">1</div>
+                            <h4 class="step-title">Upload Image</h4>
+                            <p class="step-description">Drag & drop your image or browse files on your device</p>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <h4 class="step-title">Adjust Settings</h4>
+                            <p class="step-description">Choose compression level and output format</p>
+                        </div>
+                        
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <h4 class="step-title">Download Result</h4>
+                            <p class="step-description">Save your optimized image with one click</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Testimonials Section -->
+        <section class="section testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Users Say</h2>
+                <p class="section-subtitle">Trusted by designers, developers, and marketers worldwide</p>
+                
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"ProCompress has become an essential tool in my web design workflow. I can reduce image sizes by 70-80% without any noticeable quality loss, which dramatically improves my site performance."</p>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson" class="author-avatar">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>Lead Designer at CreativeStudio</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Pricing Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Choose the plan that fits your needs</p>
+                
+                <div class="pricing-cards">
+                    <div class="pricing-card">
+                        <h3 class="pricing-title">Starter</h3>
+                        <div class="pricing-price">$0</div>
+                        <div class="pricing-period">forever</div>
+                        <div class="pricing-features">
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>10 compressions/month</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Basic compression</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>JPG & PNG support</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline" style="width: 100%;">Get Started</a>
+                    </div>
+                    
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">Popular</div>
+                        <h3 class="pricing-title">Professional</h3>
+                        <div class="pricing-price">$9</div>
+                        <div class="pricing-period">per month</div>
+                        <div class="pricing-features">
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Unlimited compressions</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Advanced compression</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>All formats supported</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Batch processing</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Priority support</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary" style="width: 100%;">Choose Plan</a>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <h3 class="pricing-title">Enterprise</h3>
+                        <div class="pricing-price">$29</div>
+                        <div class="pricing-period">per month</div>
+                        <div class="pricing-features">
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Everything in Professional</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>API access</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Team collaboration</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Dedicated account manager</span>
+                            </div>
+                            <div class="pricing-feature">
+                                <i class="fas fa-check"></i>
+                                <span>Custom SLAs</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline" style="width: 100%;">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <h2 class="cta-title">Ready to Optimize Your Images?</h2>
+                <p class="cta-subtitle">Join thousands of professionals who trust ProCompress for their image optimization needs</p>
+                <a href="#" class="btn btn-primary" style="background-color: white; color: var(--primary);">Start Compressing Now</a>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <a href="#" class="footer-logo">
+                        <div class="footer-logo-icon">
+                            <i class="fas fa-compress-alt"></i>
+                        </div>
+                        <div class="footer-logo-text">ProCompress</div>
+                    </a>
+                    <p class="footer-description">Professional image compression tool for designers, developers, and marketers. Optimize your images without sacrificing quality.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">How It Works</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Changelog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Web Performance</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                &copy; 2023 ProCompress. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
